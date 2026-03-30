@@ -142,106 +142,67 @@ Write in second person ("you decided…", "your pattern here is…") so it reads
 feedback, not a report about someone. The goal is for the person to immediately recognize
 themselves in it.
 
+**Be concise throughout.** Favor one sharp sentence over three vague ones. Cut context-setting to
+the minimum needed to make the evidence legible. Don't explain what you're about to say — say it.
+
 **Adapt each section to the role** using the role-specific guidance table at the bottom of this
 skill. Not every role has "decisions" — an engineer has architectural choices, a manager has
 people calls, a researcher has methodological bets. Use language that fits.
 
-**How to structure evidence (for sections 1 and 2 especially):** For each item you surface, frame
-it as a brief narrative — what was the context and what were the stakes, what the person was trying
-to achieve, what they actually did, and what resulted. This makes the evidence feel grounded and
-specific rather than like a list of events. Keep each item concise; depth comes from the synthesis
-across items, not from retelling every detail of a single meeting.
+**How to structure evidence (for sections 1 and 2 especially):** For each item, lead with what
+happened and what it revealed — one or two sentences. Avoid retelling the full story of a meeting
+or decision. Depth comes from the synthesis across items, not from re-narrating any single one.
 
 ---
 
 ### 6-Part Evaluation Framework
 
 #### 1. What Worked
-Surface the bets, choices, actions, or contributions that held up well — adapted to the role
-(investments, architecture calls, deals won, hires made, findings that held, etc.).
-
-For each: briefly set the context and what was at stake, what you were trying to achieve, what you
-actually did, and what the outcome was. Then draw a short inference: what does this reveal about
-your judgment or approach that's worth keeping? Avoid recapping every win — focus on the ones that
-reveal something meaningful about *why* you were effective.
+2–4 things that held up well, adapted to the role (investments, architecture calls, deals won,
+hires, findings, etc.). For each: one sentence on what happened and the outcome, then one sentence
+on what it reveals about your judgment. Focus on the wins that tell you *why* you were effective —
+skip the ones that don't add signal.
 
 #### 2. What Didn't Work
-Surface the misses, failures, or choices that went wrong or are trending poorly — same role-adapted
-framing as section 1.
-
-Same structure: context and stakes, the intent, the action taken, the result. Then be honest about
-what early signals were present but not weighted correctly. Don't jump to lessons yet — account for
-the actual cost of the miss before reframing it. A wound-down investment, a churned account, a
-technical decision that created six months of rework: name it plainly before explaining it.
+2–4 misses or failures. For each: name the outcome plainly first, then note what early signal you
+underweighted. Don't soften or jump to lessons — just account for what went wrong and what it cost.
 
 #### 3. What Evolved or Changed
-Identify positions, approaches, or guidance that shifted meaningfully over the review period:
-- What was the original stance or approach, and what did it become?
-- What drove the change — new evidence, pressure from others, lived experience, a specific event?
-- Was it healthy updating (the evidence changed, so you changed) or reactive inconsistency
-  (you reversed because things got uncomfortable)?
-- What does the pattern of change — or notable absence of change — say about how you process
-  feedback and update your models?
+What positions or approaches shifted meaningfully — and whether that shift was healthy updating
+(evidence changed, so you changed) or reactive inconsistency (you reversed under pressure). 2–3
+examples; skip changes that weren't meaningful.
 
 #### 4. Patterns in Style and Approach
-Zoom out from individual events and characterize how you show up across contexts. Two lenses are
-useful here, used together:
-
-**Recurring strengths and blind spots** — Where do you consistently add value? What's your actual
-edge? What do you systematically miss or underweight? How do you behave under pressure, ambiguity,
-or pushback? What mental models do you reach for, and where do those fail you?
-
-**Depth of operation relative to the role** — Are you operating at the right level for your
-experience and seniority? Some areas to probe: Do you tend to execute within defined constraints,
-or do you initiate and shape direction? Do you advise and enable others, or primarily do the work
-yourself? Where are you punching above your expected level — taking on complexity and influence
-that creates outsized impact? Where are you operating *below* it — defaulting to execution when
-the situation calls for strategy, or deferring when you should be initiating? This isn't about
-whether you're "senior enough" — it's about whether your actual operating level matches what the
-role and context demand.
+Two lenses, each in a short paragraph:
+- **Recurring strengths and blind spots** — where you consistently add value, what you
+  systematically miss, how you behave under pressure
+- **Depth of operation** — are you operating at the level the role demands? Where are you
+  initiating and shaping vs. defaulting to execution or deferring when you should lead?
 
 #### 5. Key Lessons
-The 3–5 most important takeaways from the evidence — framed as direct, personal insights for the
-person themselves. Each one should be grounded in a specific pattern from the data, not generic
-career advice ("you tend to over-index on technical quality at the expense of founder psychology"
-rather than "be more holistic"). Write in second person so they land as genuine feedback.
-
-Focus on the lessons that are most transferable — the ones that will keep showing up if left
-unaddressed. Don't list every observation; pick the ones with the highest signal.
+3–5 high-signal takeaways, each grounded in a specific pattern. Make them personal and specific
+("you over-index on X at the expense of Y, and it's shown up in these cases") not generic advice.
 
 #### 6. Suggested Improvements
-Concrete, bounded changes the person could make — things to do differently starting in the next
-week, month, or quarter. These should be more specific than key lessons and answerable: not "improve
-your sourcing" but "over the next three intake cycles, run the portfolio DRI lookup as a mandatory
-step before each interview, and log whether it changed your initial read."
-
-For each improvement: name the specific change, connect it to the pattern it addresses, describe
-what success looks like (how will you know it's working?), and suggest a realistic timeframe or
-context for trying it. Aim for 3–5 improvements. The best ones are small enough to actually
-attempt and specific enough to actually evaluate.
+3–5 concrete, bounded changes. Each one: the specific change, what pattern it addresses, and one
+"how will you know it worked?" check. Small enough to actually attempt; specific enough to evaluate.
 
 ---
 
 ## Output Format
 
-Write the evaluation in **flowing prose**, not bullet points. Use section headers for each of the
-5 parts. End with a **Sources** section.
+Write in **flowing prose**, not bullet points. Use section headers for each part. End with a
+**Sources** section.
 
-**Citations are non-negotiable.** Every substantive claim — a specific decision, an outcome, a
-quote, a behavioral observation — must be immediately followed by an inline link to its source.
-Use markdown link format: `[[meeting title or short description]](url)` for Granola notes,
-or `[Airtable: Company Name]` for Airtable records. If a claim has no citable source, either
-drop the claim or explicitly flag it as inference (`[inference from pattern across multiple sources]`).
-Never make a specific factual claim without a citation attached to it in the same sentence.
+**Citations are non-negotiable.** Every specific claim must have an inline source:
+`[[meeting title]](url)` for Granola, `[Airtable: Record Name]` for Airtable. If no source exists,
+either drop the claim or flag it as `[inference from pattern across sources]`.
 
-The tone should be honest, direct, and constructive — like a trusted advisor writing an assessment
-for someone they respect and want to see succeed. Don't soften findings to be nice; don't be harsh
-for the sake of it. The goal is clarity and usefulness.
+Tone: honest, direct, and constructive. Don't soften findings; don't pad thin evidence — if a
+section lacks data, say so in one sentence and move on.
 
-Aim for depth over breadth. Five well-evidenced, specific observations are worth more than fifteen
-vague ones. If the evidence is thin on a dimension, say so rather than padding.
-
-**Length**: typically 1,000–2,500 words for the main body, depending on evidence volume.
+**Length**: aim for 600–1,200 words. Tighter is better. If you find yourself writing more than
+two sentences to set up a point, cut it down.
 
 ---
 
