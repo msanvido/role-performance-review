@@ -76,7 +76,43 @@ The assessment is written in flowing prose in second person ("you decided…", "
 
 ## Installation
 
-Download `role-performance-review.skill` and install it in Claude Cowork via **Settings → Plugins → Install from file**.
+### Claude Cowork (Desktop App)
+
+1. Download [`role-performance-review.skill`](https://github.com/msanvido/role-performance-review/releases/latest) from the Releases page
+2. Open Claude Cowork
+3. Go to **Settings → Plugins → Install from file**
+4. Select the downloaded `.skill` file
+5. The skill is now available — trigger it by asking Claude to evaluate your performance in a role
+
+For the skill to work fully, connect the data sources you want to use via **Settings → Connections** (Granola, Airtable, Gmail, Slack, etc.) before running it.
+
+### Claude Code (CLI)
+
+1. Download the `.skill` file (or clone this repo)
+2. Copy `SKILL.md` into your Claude Code skills directory:
+
+   ```bash
+   mkdir -p ~/.claude/skills/role-performance-review
+   cp SKILL.md ~/.claude/skills/role-performance-review/
+   ```
+
+3. Claude Code will pick up the skill automatically on the next session
+
+### Other Claude Agent SDK Platforms
+
+This skill is a standard `SKILL.md` file and can be embedded in any Claude agent that follows the [Claude Agent SDK](https://docs.claude.com) skill convention:
+
+1. Copy `SKILL.md` into your agent's skills directory (exact path depends on your platform)
+2. Ensure the MCPs for your desired data sources are configured and available to the agent
+3. The skill's frontmatter description tells the agent when to invoke it automatically
+
+If your platform uses a different skill packaging format, you can adapt `SKILL.md` directly — all instructions are plain text and model-agnostic.
+
+### Requirements
+
+- Claude Sonnet or Opus (the skill uses parallel tool calls and structured synthesis)
+- At least one connected data source (Granola, Airtable, Gmail, etc.)
+- Web access for GitHub, LinkedIn, Substack, and Twitter/X lookups
 
 ## License
 
