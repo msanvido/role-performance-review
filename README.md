@@ -108,6 +108,17 @@ This skill is a standard `SKILL.md` file and can be embedded in any Claude agent
 
 If your platform uses a different skill packaging format, you can adapt `SKILL.md` directly — all instructions are plain text and model-agnostic.
 
+### Building the .skill file locally
+
+If you've edited `SKILL.md` and want to rebuild the `.skill` file yourself:
+
+```bash
+pip install pyyaml
+python scripts/package_skill.py
+```
+
+This outputs `role-performance-review.skill` in the current directory. The GitHub Actions workflow in `.github/workflows/package.yml` does this automatically on every push to `main` that touches `SKILL.md`.
+
 ### Requirements
 
 - Claude Sonnet or Opus (the skill uses parallel tool calls and structured synthesis)
