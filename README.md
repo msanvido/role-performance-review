@@ -78,7 +78,7 @@ The assessment is written in flowing prose in second person ("you decided…", "
 
 ### Claude Cowork (Desktop App)
 
-1. Download [`role-performance-review.skill`](https://github.com/msanvido/role-performance-review/releases/latest) from the Releases page
+1. Download [`role-performance-review.skill`](https://github.com/msanvido/role-performance-review/releases/latest/download/role-performance-review.skill) from the latest release
 2. Open Claude Cowork
 3. Go to **Settings → Plugins → Install from file**
 4. Select the downloaded `.skill` file
