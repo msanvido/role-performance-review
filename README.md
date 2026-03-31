@@ -21,7 +21,7 @@ Given a role (investor, engineer, founder, manager, etc.) and a time window, thi
 | 5 | **Key Lessons** | 3–5 high-signal takeaways grounded in specific patterns from the data |
 | 6 | **Suggested Improvements** | Concrete, bounded changes with a "how will you know it worked?" check |
 
-The framework draws inspiration from STAR (Situation → Task → Action → Result), SMART Goals, and SFIA (Skills Framework for the Information Age) without being rigid about any of them.
+The framework draws inspiration from [STAR (Situation → Task → Action → Result)](https://en.wikipedia.org/wiki/Situation,_task,_action,_result), [SMART Goals](https://en.wikipedia.org/wiki/SMART_criteria), and [SFIA (Skills Framework for the Information Age)](https://sfia-online.org/) without being rigid about any of them.
 
 ## Supported Roles
 
